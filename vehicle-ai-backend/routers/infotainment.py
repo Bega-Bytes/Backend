@@ -1,171 +1,110 @@
-from fastapi import APIRouter, HTTPException, Request
-from models.schemas import InfotainmentCommand, InfotainmentState, APIResponse
-from typing import Optional
+from fastapi import APIRouter, Request, HTTPException
+from models.schemas import InfotainmentState
+from typing import Dict, Any
+import logging
 
+logger = logging.getLogger("infotainment-router")
 router = APIRouter()
 
-@router.get("/", response_model=InfotainmentState)
-async def get_infotainment_state(request: Request):
-    """Get current infotainment system state"""
-    vehicle_state = request.app.state.vehicle_state
-    return vehicle_state.get_infotainment_state()
 
-@router.post("/play", response_model=APIResponse)
-async def play_media(request: Request):
-    """Start playing media"""
+@router.get("/status", response_model=InfotainmentState)
+async def get_infotainment_status(request: Request):
+    """Get current infotainment status"""
     try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_infotainment({"is_playing": True})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Media playback started",
-            data=updated_state.dict()
-        )
+        return vehicle_state.get_infotainment_state()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error getting infotainment status: {e}")
+        raise HTTPException(status_code=500, detail="Failed to get infotainment status")
 
-@router.post("/stop", response_model=APIResponse)
-async def stop_media(request: Request):
-    """Stop playing media"""
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_infotainment({"is_playing": False})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Media playback stopped",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
-@router.post("/volume-up", response_model=APIResponse)
-async def volume_up(request: Request, amount: Optional[int] = 5):
-    """Increase volume"""
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        current_volume = vehicle_state.get_infotainment_state().volume
-        new_volume = min(100, current_volume + amount)
-        
-        updated_state = await vehicle_state.update_infotainment({"volume": new_volume})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Volume increased to {new_volume}%",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-@router.post("/volume-down", response_model=APIResponse)
-async def volume_down(request: Request, amount: Optional[int] = 5):
-    """Decrease volume"""
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        current_volume = vehicle_state.get_infotainment_state().volume
-        new_volume = max(0, current_volume - amount)
-        
-        updated_state = await vehicle_state.update_infotainment({"volume": new_volume})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Volume decreased to {new_volume}%",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-@router.post("/set-volume/{volume}", response_model=APIResponse)
+@router.post("/volume")
 async def set_volume(volume: int, request: Request):
-    """Set specific volume level"""
-    if volume < 0 or volume > 100:
-        raise HTTPException(status_code=400, detail="Volume must be between 0 and 100")
-    
+    """Set audio volume"""
     try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_infotainment({"volume": volume})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Volume set to {volume}%",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        if not 0 <= volume <= 100:
+            raise HTTPException(status_code=400, detail="Volume must be between 0-100")
 
-@router.post("/set-source/{source}", response_model=APIResponse)
-async def set_source(source: str, request: Request):
-    """Set media source"""
-    valid_sources = ["radio", "bluetooth", "usb", "streaming"]
-    if source not in valid_sources:
-        raise HTTPException(status_code=400, detail=f"Source must be one of: {valid_sources}")
-    
-    try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_infotainment({"source": source})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Media source set to {source}",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        result = await vehicle_state.process_nlp_action("infotainment_set_volume", {"volume": volume})
 
-@router.post("/set-track", response_model=APIResponse)
-async def set_current_track(track_name: str, request: Request):
-    """Set current track information"""
+        return {"success": True, "volume": volume, "result": result}
+    except Exception as e:
+        logger.error(f"Error setting volume: {e}")
+        raise HTTPException(status_code=500, detail="Failed to set volume")
+
+
+@router.post("/mute")
+async def toggle_mute(muted: bool, request: Request):
+    """Toggle audio mute"""
     try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_infotainment({"current_track": track_name})
-        
-        await connection_manager.broadcast_state_update({
-            "infotainment": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Now playing: {track_name}",
-            data=updated_state.dict()
-        )
+        action = "infotainment_mute" if muted else "infotainment_unmute"
+        result = await vehicle_state.process_nlp_action(action, {})
+
+        return {"success": True, "muted": muted, "result": result}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error toggling mute: {e}")
+        raise HTTPException(status_code=500, detail="Failed to toggle mute")
+
+
+@router.post("/play")
+async def toggle_playback(playing: bool, request: Request):
+    """Toggle music playback"""
+    try:
+        vehicle_state = request.app.state.vehicle_state
+        action = "infotainment_play_music" if playing else "infotainment_pause_music"
+        result = await vehicle_state.process_nlp_action(action, {})
+
+        return {"success": True, "playing": playing, "result": result}
+    except Exception as e:
+        logger.error(f"Error toggling playback: {e}")
+        raise HTTPException(status_code=500, detail="Failed to toggle playback")
+
+
+@router.post("/track")
+async def change_track(direction: str, request: Request):
+    """Change to next or previous track"""
+    try:
+        valid_directions = ["next", "previous"]
+        if direction not in valid_directions:
+            raise HTTPException(status_code=400, detail=f"Direction must be one of: {valid_directions}")
+
+        vehicle_state = request.app.state.vehicle_state
+        action = f"infotainment_{direction}_track"
+        result = await vehicle_state.process_nlp_action(action, {})
+
+        return {"success": True, "direction": direction, "result": result}
+    except Exception as e:
+        logger.error(f"Error changing track: {e}")
+        raise HTTPException(status_code=500, detail="Failed to change track")
+
+
+@router.post("/radio")
+async def tune_radio(station: str, request: Request):
+    """Tune to radio station"""
+    try:
+        vehicle_state = request.app.state.vehicle_state
+        result = await vehicle_state.process_nlp_action("infotainment_radio_tune", {"station": station})
+
+        return {"success": True, "station": station, "result": result}
+    except Exception as e:
+        logger.error(f"Error tuning radio: {e}")
+        raise HTTPException(status_code=500, detail="Failed to tune radio")
+
+
+@router.post("/source")
+async def set_audio_source(source: str, request: Request):
+    """Set audio source"""
+    try:
+        valid_sources = ["radio", "bluetooth", "usb", "aux", "music"]
+        if source not in valid_sources:
+            raise HTTPException(status_code=400, detail=f"Source must be one of: {valid_sources}")
+
+        vehicle_state = request.app.state.vehicle_state
+        result = await vehicle_state.process_nlp_action("infotainment_set_source", {"source": source})
+
+        return {"success": True, "source": source, "result": result}
+    except Exception as e:
+        logger.error(f"Error setting audio source: {e}")
+        raise HTTPException(status_code=500, detail="Failed to set audio source")

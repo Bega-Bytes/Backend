@@ -1,175 +1,64 @@
-from fastapi import APIRouter, HTTPException, Request
-from models.schemas import ClimateCommand, ClimateState, APIResponse
-from typing import Optional
+from fastapi import APIRouter, Request, HTTPException
+from models.schemas import ClimateState
+from typing import Dict, Any
+import logging
 
+logger = logging.getLogger("climate-router")
 router = APIRouter()
 
-@router.get("/", response_model=ClimateState)
-async def get_climate_state(request: Request):
-    """Get current climate control state"""
-    vehicle_state = request.app.state.vehicle_state
-    return vehicle_state.get_climate_state()
 
-@router.post("/turn-on", response_model=APIResponse)
-async def turn_on_climate(request: Request):
-    """Turn on climate control"""
+@router.get("/status", response_model=ClimateState)
+async def get_climate_status(request: Request):
+    """Get current climate control status"""
     try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_climate({"is_on": True})
-        
-        # Broadcast update to connected clients
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Climate control turned on",
-            data=updated_state.dict()
-        )
+        return vehicle_state.get_climate_state()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error getting climate status: {e}")
+        raise HTTPException(status_code=500, detail="Failed to get climate status")
 
-@router.post("/turn-off", response_model=APIResponse)
-async def turn_off_climate(request: Request):
-    """Turn off climate control"""
+
+@router.post("/temperature")
+async def set_temperature(temperature: float, request: Request):
+    """Set climate temperature"""
+    try:
+        if not 16.0 <= temperature <= 30.0:
+            raise HTTPException(status_code=400, detail="Temperature must be between 16-30°C")
+
+        vehicle_state = request.app.state.vehicle_state
+        result = await vehicle_state.process_nlp_action("climate_set_temperature", {"temperature": temperature})
+
+        return {"success": True, "temperature": temperature, "result": result}
+    except Exception as e:
+        logger.error(f"Error setting temperature: {e}")
+        raise HTTPException(status_code=500, detail="Failed to set temperature")
+
+
+@router.post("/ac")
+async def toggle_ac(enabled: bool, request: Request):
+    """Toggle air conditioning"""
     try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_climate({"is_on": False})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Climate control turned off",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        action = "climate_turn_on_ac" if enabled else "climate_turn_off_ac"
+        result = await vehicle_state.process_nlp_action(action, {})
 
-@router.post("/set-temperature/{temperature}", response_model=APIResponse)
-async def set_temperature(temperature: int, request: Request):
-    """Set climate control temperature"""
-    if temperature < 16 or temperature > 32:
-        raise HTTPException(status_code=400, detail="Temperature must be between 16 and 32 degrees")
-    
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_climate({"temperature": temperature})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Temperature set to {temperature}°C",
-            data=updated_state.dict()
-        )
+        return {"success": True, "ac_enabled": enabled, "result": result}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error toggling AC: {e}")
+        raise HTTPException(status_code=500, detail="Failed to toggle AC")
 
-@router.post("/increase-temperature", response_model=APIResponse)
-async def increase_temperature(request: Request, amount: Optional[int] = 1):
-    """Increase climate control temperature"""
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        current_temp = vehicle_state.get_climate_state().temperature
-        new_temp = min(32, current_temp + amount)
-        
-        updated_state = await vehicle_state.update_climate({"temperature": new_temp})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Temperature increased to {new_temp}°C",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
-@router.post("/decrease-temperature", response_model=APIResponse)
-async def decrease_temperature(request: Request, amount: Optional[int] = 1):
-    """Decrease climate control temperature"""
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        current_temp = vehicle_state.get_climate_state().temperature
-        new_temp = max(16, current_temp - amount)
-        
-        updated_state = await vehicle_state.update_climate({"temperature": new_temp})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Temperature decreased to {new_temp}°C",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-@router.post("/set-fan-speed/{speed}", response_model=APIResponse)
+@router.post("/fan-speed")
 async def set_fan_speed(speed: int, request: Request):
-    """Set climate control fan speed"""
-    if speed < 1 or speed > 5:
-        raise HTTPException(status_code=400, detail="Fan speed must be between 1 and 5")
-    
+    """Set fan speed"""
     try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_climate({"fan_speed": speed})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Fan speed set to {speed}",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        if not 0 <= speed <= 5:
+            raise HTTPException(status_code=400, detail="Fan speed must be between 0-5")
 
-@router.post("/set-mode/{mode}", response_model=APIResponse)
-async def set_mode(mode: str, request: Request):
-    """Set climate control mode"""
-    valid_modes = ["auto", "heat", "cool", "fan"]
-    if mode not in valid_modes:
-        raise HTTPException(status_code=400, detail=f"Mode must be one of: {valid_modes}")
-    
-    try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_climate({"mode": mode})
-        
-        await connection_manager.broadcast_state_update({
-            "climate": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Climate mode set to {mode}",
-            data=updated_state.dict()
-        )
+        result = await vehicle_state.process_nlp_action("climate_set_fan_speed", {"speed": speed})
+
+        return {"success": True, "fan_speed": speed, "result": result}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error setting fan speed: {e}")
+        raise HTTPException(status_code=500, detail="Failed to set fan speed")

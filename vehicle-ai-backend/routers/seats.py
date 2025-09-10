@@ -1,163 +1,83 @@
-from fastapi import APIRouter, HTTPException, Request
-from models.schemas import SeatsCommand, SeatsState, APIResponse
-from typing import Optional, Dict
+from fastapi import APIRouter, Request, HTTPException
+from models.schemas import SeatsState
+from typing import Dict, Any
+import logging
 
+logger = logging.getLogger("seats-router")
 router = APIRouter()
 
-@router.get("/", response_model=SeatsState)
-async def get_seats_state(request: Request):
-    """Get current seats system state"""
-    vehicle_state = request.app.state.vehicle_state
-    return vehicle_state.get_seats_state()
 
-@router.post("/heat-on", response_model=APIResponse)
-async def turn_on_seat_heating(request: Request):
-    """Turn on seat heating"""
+@router.get("/status", response_model=SeatsState)
+async def get_seats_status(request: Request):
+    """Get current seat status"""
     try:
         vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_seats({"heating_on": True})
-        
-        await connection_manager.broadcast_state_update({
-            "seats": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Seat heating turned on",
-            data=updated_state.dict()
-        )
+        return vehicle_state.get_seats_state()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"Error getting seats status: {e}")
+        raise HTTPException(status_code=500, detail="Failed to get seats status")
 
-@router.post("/heat-off", response_model=APIResponse)
-async def turn_off_seat_heating(request: Request):
-    """Turn off seat heating"""
+
+@router.post("/heating")
+async def toggle_seat_heating(seat: str, enabled: bool, request: Request):
+    """Toggle seat heating"""
     try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_seats({"heating_on": False})
-        
-        await connection_manager.broadcast_state_update({
-            "seats": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Seat heating turned off",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        valid_seats = ["driver", "passenger"]
+        if seat not in valid_seats:
+            raise HTTPException(status_code=400, detail=f"Seat must be one of: {valid_seats}")
 
-@router.post("/set-heating-level/{level}", response_model=APIResponse)
-async def set_heating_level(level: int, request: Request):
-    """Set seat heating level"""
-    if level < 1 or level > 3:
-        raise HTTPException(status_code=400, detail="Heating level must be between 1 and 3")
-    
+        vehicle_state = request.app.state.vehicle_state
+        action = "seats_heat_on" if enabled else "seats_heat_off"
+        result = await vehicle_state.process_nlp_action(action, {"seat": seat})
+
+        return {"success": True, "seat": seat, "heating": enabled, "result": result}
+    except Exception as e:
+        logger.error(f"Error toggling seat heating: {e}")
+        raise HTTPException(status_code=500, detail="Failed to toggle seat heating")
+
+
+@router.post("/massage")
+async def toggle_seat_massage(seat: str, enabled: bool, request: Request):
+    """Toggle seat massage"""
     try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_seats({
-            "heating_level": level,
-            "heating_on": True  # Turn on heating when setting level
-        })
-        
-        await connection_manager.broadcast_state_update({
-            "seats": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Seat heating level set to {level}",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        valid_seats = ["driver", "passenger"]
+        if seat not in valid_seats:
+            raise HTTPException(status_code=400, detail=f"Seat must be one of: {valid_seats}")
 
-@router.post("/adjust-position", response_model=APIResponse)
-async def adjust_seat_position(request: Request, position: Dict[str, int]):
+        vehicle_state = request.app.state.vehicle_state
+        action = "seats_massage_on" if enabled else "seats_massage_off"
+        result = await vehicle_state.process_nlp_action(action, {"seat": seat})
+
+        return {"success": True, "seat": seat, "massage": enabled, "result": result}
+    except Exception as e:
+        logger.error(f"Error toggling seat massage: {e}")
+        raise HTTPException(status_code=500, detail="Failed to toggle seat massage")
+
+
+@router.post("/position")
+async def adjust_seat_position(seat: str, position_type: str, value: int, request: Request):
     """Adjust seat position"""
-    # Validate position parameters
-    valid_params = ["recline", "height", "lumbar"]
-    for param, value in position.items():
-        if param not in valid_params:
-            raise HTTPException(status_code=400, detail=f"Invalid position parameter: {param}")
-        if not (0 <= value <= 100):
-            raise HTTPException(status_code=400, detail=f"{param} must be between 0 and 100")
-    
     try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        # Get current position and update with new values
-        current_position = vehicle_state.get_seats_state().position.copy()
-        current_position.update(position)
-        
-        updated_state = await vehicle_state.update_seats({"position": current_position})
-        
-        await connection_manager.broadcast_state_update({
-            "seats": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message="Seat position adjusted",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        valid_seats = ["driver", "passenger"]
+        valid_positions = ["height", "tilt", "lumbar"]
 
-@router.post("/preset/{preset_name}", response_model=APIResponse)
-async def apply_seat_preset(preset_name: str, request: Request):
-    """Apply a predefined seat preset"""
-    presets = {
-        "comfort": {
-            "recline": 30,
-            "height": 60,
-            "lumbar": 70
-        },
-        "sport": {
-            "recline": 80,
-            "height": 40,
-            "lumbar": 50
-        },
-        "relax": {
-            "recline": 10,
-            "height": 80,
-            "lumbar": 90
-        }
-    }
-    
-    if preset_name not in presets:
-        raise HTTPException(status_code=400, detail=f"Preset must be one of: {list(presets.keys())}")
-    
-    try:
-        vehicle_state = request.app.state.vehicle_state
-        connection_manager = request.app.state.connection_manager
-        
-        updated_state = await vehicle_state.update_seats({"position": presets[preset_name]})
-        
-        await connection_manager.broadcast_state_update({
-            "seats": updated_state.dict()
-        })
-        
-        return APIResponse(
-            success=True,
-            message=f"Applied {preset_name} seat preset",
-            data=updated_state.dict()
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        if seat not in valid_seats:
+            raise HTTPException(status_code=400, detail=f"Seat must be one of: {valid_seats}")
 
-@router.get("/presets")
-async def get_available_presets():
-    """Get list of available seat presets"""
-    return {
-        "presets": ["comfort", "sport", "relax"],
-        "positions": ["recline", "height", "lumbar"]
-    }
+        if position_type not in valid_positions:
+            raise HTTPException(status_code=400, detail=f"Position type must be one of: {valid_positions}")
+
+        if not 0 <= value <= 100:
+            raise HTTPException(status_code=400, detail="Position value must be between 0-100")
+
+        vehicle_state = request.app.state.vehicle_state
+        result = await vehicle_state.process_nlp_action("seats_adjust_position", {
+            "seat": seat,
+            "position_type": position_type,
+            "value": value
+        })
+
+        return {"success": True, "seat": seat, "position_type": position_type, "value": value, "result": result}
+    except Exception as e:
+        logger.error(f"Error adjusting seat position: {e}")
+        raise HTTPException(status_code=500, detail="Failed to adjust seat position")

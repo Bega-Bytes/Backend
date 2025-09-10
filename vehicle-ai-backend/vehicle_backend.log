@@ -1,0 +1,1682 @@
+2025-09-10 14:28:06,481 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:28:06,481 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503686.4810164}
+2025-09-10 14:28:06,492 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:28:06,500 - vehicle-backend - INFO - Starting Vehicle AI Backend...
+2025-09-10 14:28:07,552 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:28:07,552 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503687.5520751}
+2025-09-10 14:28:07,553 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:28:07,642 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:28:07,709 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:28:07,907 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503687.7095437}
+2025-09-10 14:28:07,999 - watchfiles.main - INFO - 6 changes detected
+2025-09-10 14:28:07,911 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:28:08,101 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:28:08,457 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:28:08,461 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:28:08,465 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:32:19,990 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:32:19,995 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:32:20,001 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 14:33:03,529 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:33:03,530 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503983.529411}
+2025-09-10 14:33:03,530 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:33:03,537 - vehicle-backend - INFO - Starting Vehicle AI Backend...
+2025-09-10 14:33:04,298 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:33:04,299 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503984.2987695}
+2025-09-10 14:33:04,299 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:33:04,351 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:33:04,360 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757503984.3510542}
+2025-09-10 14:33:04,362 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:33:04,372 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:33:04,377 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:33:04,384 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:33:04,388 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:33:04,392 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:33:04,789 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:35:43,786 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:35:43,790 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:35:43,795 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 14:36:13,461 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:36:13,461 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504173.4613738}
+2025-09-10 14:36:13,462 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:36:13,469 - vehicle-backend - INFO - Starting Vehicle AI Backend...
+2025-09-10 14:36:14,621 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:36:14,622 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504174.6219242}
+2025-09-10 14:36:14,623 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:36:14,698 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:36:15,052 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:36:15,568 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:36:14,705 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:36:15,981 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504174.7055902}
+2025-09-10 14:36:15,984 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:36:16,210 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:36:17,219 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:36:17,223 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:36:17,226 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:38:18,213 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:39:02,924 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:39:35,200 - watchfiles.main - INFO - 3 changes detected
+2025-09-10 14:39:35,337 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:39:35,525 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:39:35,531 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 14:39:36,038 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:39:37,604 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:39:37,605 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504377.6045408}
+2025-09-10 14:39:37,606 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:39:37,704 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:39:37,731 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:39:37,911 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504377.7313974}
+2025-09-10 14:39:37,915 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:39:38,056 - watchfiles.main - INFO - 6 changes detected
+2025-09-10 14:39:37,967 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:39:38,116 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:39:38,120 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:39:38,123 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:39:38,558 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:41:17,995 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:41:17,999 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:41:18,003 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 14:41:36,552 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:41:36,553 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504496.5528455}
+2025-09-10 14:41:36,553 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:41:36,556 - vehicle-backend - INFO - Starting Vehicle AI Backend...
+2025-09-10 14:41:37,374 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:41:37,375 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504497.3749554}
+2025-09-10 14:41:37,376 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:41:37,429 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:41:37,440 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504497.4292352}
+2025-09-10 14:41:37,443 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:41:37,451 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:41:37,459 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:41:37,461 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:41:37,464 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:41:37,498 - watchfiles.main - INFO - 6 changes detected
+2025-09-10 14:42:15,529 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:42:22,477 - watchfiles.main - INFO - 3 changes detected
+2025-09-10 14:42:22,605 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:42:22,609 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:42:22,612 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 14:42:23,032 - watchfiles.main - INFO - 1 change detected
+2025-09-10 14:42:23,321 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:42:23,322 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504543.3213863}
+2025-09-10 14:42:23,322 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:42:23,379 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 14:42:23,390 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757504543.379588}
+2025-09-10 14:42:23,393 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 14:42:23,408 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 14:42:23,415 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 14:42:23,420 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 14:42:23,424 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 14:42:23,446 - watchfiles.main - INFO - 6 changes detected
+2025-09-10 14:42:23,935 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 14:42:23,940 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 14:42:23,943 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:08:59,030 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:08:59,030 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506139.0301504}
+2025-09-10 15:08:59,031 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:08:59,150 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:08:59,152 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:08:59,153 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:08:59,153 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:15:01,845 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:15:01,847 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:15:01,848 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:15:03,216 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:15:03,217 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506503.2166505}
+2025-09-10 15:15:03,217 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:15:03,234 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:15:03,235 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:15:03,235 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:15:03,236 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:15:03,302 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:15:03,304 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:15:03,304 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:15:04,402 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:15:04,403 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506504.4023373}
+2025-09-10 15:15:04,403 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:15:04,417 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:15:04,419 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:15:04,420 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:15:04,420 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:15:58,954 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:15:58,957 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:15:58,957 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:16:00,276 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:16:00,277 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506560.276843}
+2025-09-10 15:16:00,278 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:16:00,289 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:16:00,291 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:16:00,291 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:16:00,292 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:16:00,350 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:16:00,351 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:16:00,352 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:16:01,362 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:16:01,363 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506561.3627954}
+2025-09-10 15:16:01,364 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:16:01,376 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:16:01,379 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:16:01,380 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:16:01,380 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:17:53,407 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:17:53,412 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:17:53,413 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:17:54,667 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:17:54,668 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506674.6675742}
+2025-09-10 15:17:54,668 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:17:54,681 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:17:54,683 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:17:54,684 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:17:54,684 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:18:39,820 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:18:39,823 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:18:39,823 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:18:41,028 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:18:41,029 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506721.0285954}
+2025-09-10 15:18:41,029 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:18:41,044 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:18:41,047 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:18:41,047 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:18:41,047 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:18:49,564 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:18:49,566 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:18:49,567 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:18:50,677 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:18:50,677 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757506730.6771207}
+2025-09-10 15:18:50,678 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:18:50,691 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:18:50,692 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:18:50,693 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:18:50,693 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:29:49,701 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:29:49,704 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:29:49,704 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:29:51,916 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:29:51,917 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757507391.9164183}
+2025-09-10 15:29:51,917 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:29:52,074 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:29:52,076 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:29:52,076 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:29:52,077 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:37:16,026 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:37:16,028 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757507836.0264297}
+2025-09-10 15:37:16,028 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:37:16,067 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:37:16,069 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:37:16,069 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:37:16,069 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:37:49,838 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:37:51,684 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:37:51,686 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:37:51,686 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:37:51,696 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:51,918 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:51,922 - vehicle-backend - INFO - Response: 200 - Time: 0.226s
+2025-09-10 15:37:52,172 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:52,174 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:52,174 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:37:52,243 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:37:52,244 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:37:52,245 - websocket-manager - INFO - Connection duration: 0.6s, Messages: 1
+2025-09-10 15:37:52,245 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:37:52,245 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:37:52,246 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:37:52,307 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:52,308 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:52,309 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:37:52,313 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:52,316 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:52,317 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:37:52,444 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:52,447 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:52,448 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:37:52,456 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:37:52,459 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:37:52,460 - vehicle-backend - INFO - Response: 200 - Time: 0.005s
+2025-09-10 15:37:52,754 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:37:52,758 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:37:52,759 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:37:52,759 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:38:22,824 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757507902759}
+2025-09-10 15:38:22,825 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:38:22,826 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:38:22,964 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757507902898}
+2025-09-10 15:38:52,891 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757507932891}
+2025-09-10 15:38:52,892 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:38:52,892 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:38:53,033 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757507933032}
+2025-09-10 15:39:08,931 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:08,931 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:08,931 - websocket-manager - INFO - Connection duration: 76.2s, Messages: 5
+2025-09-10 15:39:08,932 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:39:08,932 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:39:08,933 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:39:09,295 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:39:09,298 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:39:09,301 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:39:09,301 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:39:09,302 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,304 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,306 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:39:09,309 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,311 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,312 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,316 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:09,317 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:09,318 - websocket-manager - INFO - Connection duration: 0.0s, Messages: 1
+2025-09-10 15:39:09,318 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:39:09,318 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:39:09,318 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:39:09,546 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,547 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,548 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:09,551 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,553 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,553 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,660 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,661 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,662 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,666 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,668 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,669 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,789 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,791 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,792 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,795 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,797 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,798 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:09,923 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,925 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,926 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:09,929 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:09,931 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:09,934 - vehicle-backend - INFO - Response: 200 - Time: 0.005s
+2025-09-10 15:39:10,032 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,034 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,035 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:10,039 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,041 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,042 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:10,161 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,162 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,163 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,167 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,168 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,169 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,270 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,272 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,274 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:10,277 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,279 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,279 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,396 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,398 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,398 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,402 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,404 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,406 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:39:10,512 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,514 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,515 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:10,519 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,520 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,521 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,626 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,628 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,629 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:10,632 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:10,633 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:10,634 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:10,934 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:39:10,937 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:39:10,939 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:39:10,940 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:39:17,679 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:17,680 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:17,681 - websocket-manager - INFO - Connection duration: 6.7s, Messages: 1
+2025-09-10 15:39:17,681 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:39:17,681 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:39:17,682 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:39:17,730 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:17,732 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:17,733 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:17,736 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:17,737 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:17,738 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:18,046 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:39:18,048 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:39:18,050 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:39:18,050 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:39:18,220 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:18,221 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:39:18,221 - websocket-manager - INFO - Connection duration: 0.2s, Messages: 1
+2025-09-10 15:39:18,221 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:39:18,221 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:39:18,222 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:39:18,258 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,259 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,260 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,264 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,266 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,267 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:18,433 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,434 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,435 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,438 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,440 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,440 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,593 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,595 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,596 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:18,600 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,601 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,602 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,704 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,705 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,706 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,709 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,710 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,711 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:18,858 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,860 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,862 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:18,866 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:18,868 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:18,869 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:19,004 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,006 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,007 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:19,010 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,011 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,012 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:19,138 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,140 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,141 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,144 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,146 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,147 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,416 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,418 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,419 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,422 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,424 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,426 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,570 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,572 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,573 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,576 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,578 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,579 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,870 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,872 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,873 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:19,877 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:19,878 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:19,878 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:20,034 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,036 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,036 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:20,041 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,043 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,044 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:20,189 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,191 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,193 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:39:20,197 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,199 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,200 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:20,356 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,358 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,359 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:20,361 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,363 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,363 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:20,547 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,548 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,549 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:20,552 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,558 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,559 - vehicle-backend - INFO - Response: 200 - Time: 0.008s
+2025-09-10 15:39:20,837 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,838 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,839 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:20,843 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:20,845 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:20,846 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 15:39:20,999 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:21,001 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:21,003 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:21,006 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:21,008 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:21,009 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:21,304 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:21,305 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:21,306 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 15:39:21,309 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 15:39:21,311 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 15:39:21,311 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 15:39:21,609 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:39:21,613 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:39:21,614 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:39:21,614 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:39:51,678 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757507991562}
+2025-09-10 15:39:51,679 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:39:51,679 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:39:52,140 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757507992024}
+2025-09-10 15:40:21,744 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508021706}
+2025-09-10 15:40:21,745 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:40:21,746 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:40:22,210 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508022170}
+2025-09-10 15:40:51,810 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508051718}
+2025-09-10 15:40:51,810 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:40:51,811 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:40:52,255 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508052162}
+2025-09-10 15:41:21,822 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508081822}
+2025-09-10 15:41:21,823 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:41:21,824 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:41:22,263 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508082262}
+2025-09-10 15:41:51,836 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508111836}
+2025-09-10 15:41:51,837 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:41:51,838 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:41:52,252 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508112251}
+2025-09-10 15:42:21,843 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508141843}
+2025-09-10 15:42:21,844 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:42:21,845 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:42:22,258 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508142257}
+2025-09-10 15:42:23,625 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:23,626 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:23,627 - websocket-manager - INFO - Connection duration: 182.0s, Messages: 13
+2025-09-10 15:42:23,627 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:42:23,627 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:42:23,629 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:42:23,727 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:42:23,728 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:42:23,728 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:42:26,052 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:42:26,052 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757508146.0523977}
+2025-09-10 15:42:26,053 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:42:26,215 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:42:26,216 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:42:26,217 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:42:26,217 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:42:26,556 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:42:26,865 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:42:26,866 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:42:26,866 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:42:36,647 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:36,649 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:36,650 - websocket-manager - INFO - Connection duration: 9.8s, Messages: 1
+2025-09-10 15:42:36,650 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:42:36,650 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:42:36,652 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:42:36,764 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:42:36,765 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:42:36,766 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:42:37,789 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:42:37,790 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757508157.7896316}
+2025-09-10 15:42:37,791 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:42:37,806 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:42:37,807 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:42:37,807 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:42:37,808 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:42:39,564 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:42:39,570 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:42:39,572 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:42:39,572 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:42:45,639 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:45,641 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:42:45,642 - websocket-manager - INFO - Connection duration: 6.1s, Messages: 1
+2025-09-10 15:42:45,642 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:42:45,642 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:42:45,645 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:42:45,755 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:42:45,756 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:42:45,757 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:42:46,714 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:42:46,715 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757508166.7147226}
+2025-09-10 15:42:46,715 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:42:46,731 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:42:46,734 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:42:46,734 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:42:46,734 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:42:48,554 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:42:48,561 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:42:48,562 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:42:48,563 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:43:18,577 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508198576}
+2025-09-10 15:43:18,578 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:43:18,579 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:43:19,261 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508199261}
+2025-09-10 15:43:48,587 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508228586}
+2025-09-10 15:43:48,587 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:43:48,588 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:43:49,250 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508229250}
+2025-09-10 15:44:18,592 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508258591}
+2025-09-10 15:44:18,592 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:44:18,593 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:44:19,252 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508259251}
+2025-09-10 15:44:48,599 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508288598}
+2025-09-10 15:44:48,599 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:44:48,600 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:44:49,254 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508289253}
+2025-09-10 15:45:18,605 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508318604}
+2025-09-10 15:45:18,605 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:45:18,606 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:45:19,263 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508319262}
+2025-09-10 15:45:48,613 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508348612}
+2025-09-10 15:45:48,613 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:45:48,614 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:45:49,264 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508349263}
+2025-09-10 15:46:18,621 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508378620}
+2025-09-10 15:46:18,621 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:46:18,622 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:46:48,625 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508408625}
+2025-09-10 15:46:48,626 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:46:48,626 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:47:08,261 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508428260}
+2025-09-10 15:47:18,627 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508438626}
+2025-09-10 15:47:18,627 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:47:18,628 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:47:48,632 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508468632}
+2025-09-10 15:47:48,633 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:47:48,633 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:48:08,264 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508488263}
+2025-09-10 15:48:18,638 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508498637}
+2025-09-10 15:48:18,638 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:48:18,639 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:48:48,653 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508528652}
+2025-09-10 15:48:48,653 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:48:48,654 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:49:08,253 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508548252}
+2025-09-10 15:49:18,660 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508558659}
+2025-09-10 15:49:18,660 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:49:18,661 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:49:48,669 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508588669}
+2025-09-10 15:49:48,670 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:49:48,670 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:50:08,253 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508608252}
+2025-09-10 15:50:18,677 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508618676}
+2025-09-10 15:50:18,677 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:50:18,678 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:50:48,683 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508648682}
+2025-09-10 15:50:48,684 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:50:48,685 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:51:08,250 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508668249}
+2025-09-10 15:51:18,692 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508678691}
+2025-09-10 15:51:18,692 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:51:18,693 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:51:48,698 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508708697}
+2025-09-10 15:51:48,699 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:51:48,700 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:52:08,263 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508728262}
+2025-09-10 15:52:18,699 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508738698}
+2025-09-10 15:52:18,699 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:52:18,700 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:52:48,713 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508768712}
+2025-09-10 15:52:48,713 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:52:48,714 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:53:08,260 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508788260}
+2025-09-10 15:53:18,718 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508798719}
+2025-09-10 15:53:18,719 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:53:18,719 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:53:48,723 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508828723}
+2025-09-10 15:53:48,723 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:53:48,724 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:54:08,259 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508848258}
+2025-09-10 15:54:18,731 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508858731}
+2025-09-10 15:54:18,732 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:54:18,733 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:54:48,737 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508888737}
+2025-09-10 15:54:48,737 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:54:48,738 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:55:07,839 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:55:07,840 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:55:07,841 - websocket-manager - INFO - Connection duration: 739.3s, Messages: 39
+2025-09-10 15:55:07,841 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:55:07,841 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:55:07,843 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:55:07,944 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:55:07,945 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:55:07,945 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:55:10,540 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:55:10,541 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757508910.540616}
+2025-09-10 15:55:10,542 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:55:10,731 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:55:10,733 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:55:10,734 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:55:10,734 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:55:10,818 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:55:11,077 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:55:11,079 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:55:11,079 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:55:41,112 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508941114}
+2025-09-10 15:55:41,114 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:55:41,116 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:55:41,256 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508941257}
+2025-09-10 15:56:11,112 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757508971112}
+2025-09-10 15:56:11,113 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:56:11,113 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:56:11,244 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757508971244}
+2025-09-10 15:56:40,234 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:56:40,236 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:56:40,236 - websocket-manager - INFO - Connection duration: 89.2s, Messages: 5
+2025-09-10 15:56:40,237 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:56:40,237 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:56:40,239 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:56:40,338 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:56:40,339 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:56:40,339 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:56:41,630 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:56:41,630 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509001.6302023}
+2025-09-10 15:56:41,631 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:56:41,648 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:56:41,651 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:56:41,651 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:56:41,651 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:56:42,560 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:56:42,568 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:56:42,569 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:56:42,570 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:57:05,743 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:57:05,745 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:57:05,746 - websocket-manager - INFO - Connection duration: 23.2s, Messages: 1
+2025-09-10 15:57:05,747 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:57:05,747 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:57:05,749 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:57:05,852 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:57:05,853 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:57:05,853 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:57:07,187 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:57:07,188 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509027.1878455}
+2025-09-10 15:57:07,189 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:57:07,204 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:57:07,206 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:57:07,206 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:57:07,206 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:57:07,273 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:57:07,274 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:57:07,274 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:57:08,334 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:57:08,335 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509028.334652}
+2025-09-10 15:57:08,335 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:57:08,356 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:57:08,358 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:57:08,359 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:57:08,359 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:57:08,559 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:57:08,569 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:57:08,570 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:57:08,571 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:57:38,580 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509058580}
+2025-09-10 15:57:38,581 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 15:57:38,582 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 15:57:39,238 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509059238}
+2025-09-10 15:57:48,058 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:57:48,060 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:57:48,061 - websocket-manager - INFO - Connection duration: 39.5s, Messages: 3
+2025-09-10 15:57:48,061 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:57:48,061 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:57:48,063 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:57:48,161 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:57:48,162 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:57:48,162 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:57:49,354 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:57:49,355 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509069.3543823}
+2025-09-10 15:57:49,355 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:57:49,372 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:57:49,374 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:57:49,374 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:57:49,374 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:57:50,555 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:57:50,563 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:57:50,564 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:57:50,564 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:58:16,349 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:58:16,350 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:58:16,350 - websocket-manager - INFO - Connection duration: 25.8s, Messages: 1
+2025-09-10 15:58:16,351 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:58:16,351 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:58:16,353 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:58:16,464 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:58:16,465 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:58:16,465 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:58:17,899 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:58:17,900 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509097.8997848}
+2025-09-10 15:58:17,901 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:58:17,915 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:58:17,916 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:58:17,916 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:58:17,917 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 15:58:19,565 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 15:58:19,574 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 15:58:19,575 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 15:58:19,575 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 15:58:36,466 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:58:36,469 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 15:58:36,469 - websocket-manager - INFO - Connection duration: 16.9s, Messages: 1
+2025-09-10 15:58:36,470 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 15:58:36,470 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 15:58:36,471 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 15:58:36,569 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 15:58:36,571 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 15:58:36,571 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 15:59:50,905 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 15:59:50,906 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509190.9058974}
+2025-09-10 15:59:50,906 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 15:59:50,919 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 15:59:50,921 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 15:59:50,921 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 15:59:50,922 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:00:31,955 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:00:31,958 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:00:31,958 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:00:33,281 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:00:33,282 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509233.2818766}
+2025-09-10 16:00:33,283 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:00:33,298 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:00:33,299 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:00:33,300 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:00:33,300 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:00:45,254 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:00:45,257 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:00:45,257 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:00:46,123 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:00:46,124 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509246.1239252}
+2025-09-10 16:00:46,124 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:00:46,136 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:00:46,138 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:00:46,138 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:00:46,138 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:00:46,196 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:00:46,197 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:00:46,198 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:00:46,994 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:00:46,995 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509246.9949446}
+2025-09-10 16:00:46,996 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:00:47,012 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:00:47,015 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:00:47,015 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:00:47,015 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:01:15,195 - vehicle-backend - INFO - Request: GET /health - Client: 127.0.0.1
+2025-09-10 16:01:15,197 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:01:17,281 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:01:17,282 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.001s
+2025-09-10 16:01:26,779 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:01:26,780 - vehicle-backend - INFO - Request body: {"text": "set temperature to 24 degrees"}
+2025-09-10 16:01:26,794 - nlp-router - INFO - Processing voice command: 'set temperature to 24 degrees'
+2025-09-10 16:01:27,155 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:01:27,156 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 24 degrees'
+2025-09-10 16:01:27,457 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:01:27,458 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:01:35,466 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:01:35,467 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:01:35,467 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 24}, 'processing_time': 8.00078821182251, 'source': 'llm_fallback', 'original_text': 'set temperature to 24 degrees', 'processed_text': 'set temperature to 24 degrees'}
+2025-09-10 16:01:35,467 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 24}
+2025-09-10 16:01:35,468 - nlp-router - ERROR - Error executing action climate_set: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:01:35,480 - vehicle-backend - INFO - Response: 200 - Time: 8.701s
+2025-09-10 16:01:37,527 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:01:37,530 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.003s
+2025-09-10 16:02:36,832 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:02:36,839 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:02:36,840 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:02:36,840 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:02:36,840 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:02:36,843 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.002s
+2025-09-10 16:02:36,846 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:02:36,847 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.001s
+2025-09-10 16:02:38,660 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:02:38,662 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.002s
+2025-09-10 16:02:38,665 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:02:38,666 - vehicle-backend - ERROR - Request failed: 'VehicleStateManager' object has no attribute 'get_state' - Time: 0.001s
+2025-09-10 16:02:38,963 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:02:38,966 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:02:38,970 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:02:40,072 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:02:40,073 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:02:40,073 - websocket-manager - INFO - Connection duration: 1.1s, Messages: 1
+2025-09-10 16:02:40,074 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:03:06,849 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509386848}
+2025-09-10 16:03:06,850 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:03:06,851 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:03:07,246 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509387244}
+2025-09-10 16:03:23,566 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:23,568 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:23,568 - websocket-manager - INFO - Connection duration: 46.7s, Messages: 3
+2025-09-10 16:03:23,568 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:03:23,569 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:03:23,570 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:03:23,669 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:03:23,670 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:03:23,671 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:03:25,040 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:03:25,040 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509405.0402355}
+2025-09-10 16:03:25,041 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:03:25,064 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:03:25,065 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:03:25,066 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:03:25,066 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:03:26,553 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:03:26,560 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:03:26,562 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:03:26,563 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:03:34,017 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:34,019 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:34,020 - websocket-manager - INFO - Connection duration: 7.5s, Messages: 1
+2025-09-10 16:03:34,020 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:03:34,020 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:03:34,021 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:03:34,128 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:03:34,130 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:03:34,131 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:03:35,315 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:03:35,316 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509415.3158214}
+2025-09-10 16:03:35,317 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:03:35,328 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:03:35,331 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:03:35,331 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:03:35,332 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:03:36,556 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:03:36,564 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:03:36,565 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:03:36,565 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:03:37,354 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:37,357 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:03:37,357 - websocket-manager - INFO - Connection duration: 0.8s, Messages: 1
+2025-09-10 16:03:37,358 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:03:37,358 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:03:37,360 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:03:37,467 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:03:37,469 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:03:37,469 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:03:43,209 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:03:43,210 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509423.209193}
+2025-09-10 16:03:43,210 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:03:43,220 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:03:43,222 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:03:43,222 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:03:43,223 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:03:47,548 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:03:47,558 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:03:47,559 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:03:47,559 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:04:01,959 - vehicle-backend - INFO - Request: GET /health - Client: 127.0.0.1
+2025-09-10 16:04:01,960 - vehicle-backend - INFO - Response: 200 - Time: 0.001s
+2025-09-10 16:04:04,035 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:04:04,037 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:04:04,037 - vehicle-backend - ERROR - Error in status endpoint: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:04:04,038 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 16:04:12,563 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:04:12,564 - vehicle-backend - INFO - Request body: {"text": "set temperature to 24 degrees"}
+2025-09-10 16:04:12,566 - nlp-router - INFO - Processing voice command: 'set temperature to 24 degrees'
+2025-09-10 16:04:12,901 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:04:12,902 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 24 degrees'
+2025-09-10 16:04:13,198 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:04:13,199 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:04:17,574 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509457573}
+2025-09-10 16:04:17,575 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:04:17,575 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:04:18,239 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509458238}
+2025-09-10 16:04:18,936 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:04:18,936 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:04:18,936 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 24}, 'processing_time': 5.72606086730957, 'source': 'llm_fallback', 'original_text': 'set temperature to 24 degrees', 'processed_text': 'set temperature to 24 degrees'}
+2025-09-10 16:04:18,937 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 24}
+2025-09-10 16:04:18,937 - nlp-router - ERROR - Error executing action climate_set: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:04:18,937 - vehicle-backend - INFO - Response: 200 - Time: 6.374s
+2025-09-10 16:04:20,981 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:04:20,983 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:04:20,984 - vehicle-backend - ERROR - Error in status endpoint: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:04:20,984 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 16:04:47,577 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509487576}
+2025-09-10 16:04:47,579 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:04:47,579 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:04:48,246 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509488246}
+2025-09-10 16:05:17,581 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509517581}
+2025-09-10 16:05:17,582 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:05:17,582 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:05:18,246 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509518245}
+2025-09-10 16:05:33,199 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:05:33,200 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:05:33,201 - websocket-manager - INFO - Connection duration: 105.6s, Messages: 7
+2025-09-10 16:05:33,201 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:05:33,202 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:05:33,203 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:05:33,310 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:05:33,312 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:05:33,312 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:05:34,656 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:05:34,657 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509534.6562939}
+2025-09-10 16:05:34,657 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:05:34,671 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:05:34,672 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:05:34,673 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:05:34,673 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:05:35,553 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:05:35,562 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:05:35,563 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:05:35,564 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:05:40,964 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:05:40,966 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:05:40,967 - websocket-manager - INFO - Connection duration: 5.4s, Messages: 1
+2025-09-10 16:05:40,967 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:05:40,967 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:05:40,968 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:05:41,075 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:05:41,076 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:05:41,076 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:05:47,597 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:05:47,598 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757509547.5975716}
+2025-09-10 16:05:47,599 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:05:47,610 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:05:47,613 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:05:47,614 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:05:47,614 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:05:50,573 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:05:50,580 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:05:50,581 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:05:50,581 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:06:02,169 - vehicle-backend - INFO - Request: GET /health - Client: 127.0.0.1
+2025-09-10 16:06:02,171 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:06:04,224 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:06:04,227 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:06:04,228 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 16:06:12,398 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:06:12,399 - vehicle-backend - INFO - Request body: {"text": "set temperature to 24 degrees"}
+2025-09-10 16:06:12,401 - nlp-router - INFO - Processing voice command: 'set temperature to 24 degrees'
+2025-09-10 16:06:12,733 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:06:12,733 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 24 degrees'
+2025-09-10 16:06:13,005 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:06:13,006 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:06:16,145 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:06:16,146 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:06:16,147 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 24}, 'processing_time': 3.130838632583618, 'source': 'llm_fallback', 'original_text': 'set temperature to 24 degrees', 'processed_text': 'set temperature to 24 degrees'}
+2025-09-10 16:06:16,147 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 24}
+2025-09-10 16:06:16,147 - nlp-router - ERROR - Error executing action climate_set: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:06:16,148 - vehicle-backend - INFO - Response: 200 - Time: 3.750s
+2025-09-10 16:06:18,183 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:06:18,185 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:06:18,185 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:06:20,600 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509580599}
+2025-09-10 16:06:20,601 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:06:20,602 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:06:21,246 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509581245}
+2025-09-10 16:06:28,577 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:06:28,579 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:06:28,581 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:06:28,581 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:06:28,583 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:06:28,584 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 16:06:28,588 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:06:28,589 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:06:28,590 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:06:30,299 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:06:30,300 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:06:30,300 - websocket-manager - INFO - Connection duration: 1.7s, Messages: 1
+2025-09-10 16:06:30,301 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:06:50,607 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509610606}
+2025-09-10 16:06:50,609 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:06:50,609 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:06:51,248 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509611247}
+2025-09-10 16:07:20,621 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509640621}
+2025-09-10 16:07:20,622 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:07:20,623 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:07:21,252 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509641251}
+2025-09-10 16:07:50,636 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509670635}
+2025-09-10 16:07:50,636 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:07:50,637 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:07:51,247 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509671246}
+2025-09-10 16:08:20,641 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509700640}
+2025-09-10 16:08:20,641 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:08:20,642 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:08:21,239 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509701238}
+2025-09-10 16:08:50,647 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509730646}
+2025-09-10 16:08:50,647 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:08:50,648 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:08:51,245 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509731244}
+2025-09-10 16:09:20,653 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509760652}
+2025-09-10 16:09:20,653 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:09:20,654 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:09:50,663 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509790662}
+2025-09-10 16:09:50,663 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:09:50,664 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:10:08,240 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509808240}
+2025-09-10 16:10:20,671 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509820671}
+2025-09-10 16:10:20,672 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:10:20,672 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:10:50,675 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509850674}
+2025-09-10 16:10:50,676 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:10:50,676 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:11:08,242 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509868241}
+2025-09-10 16:11:20,679 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509880679}
+2025-09-10 16:11:20,679 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:11:20,680 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:11:50,686 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509910686}
+2025-09-10 16:11:50,687 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:11:50,687 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:12:08,250 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509928250}
+2025-09-10 16:12:20,696 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509940696}
+2025-09-10 16:12:20,696 - websocket-manager - INFO - Broadcasting message to 1 connections
+2025-09-10 16:12:20,697 - websocket-manager - INFO - Broadcast completed: 1 successful, 0 failed
+2025-09-10 16:12:42,505 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:12:42,507 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:12:42,510 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:12:42,639 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:12:42,641 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:12:42,641 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:12:50,704 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509970704}
+2025-09-10 16:12:50,705 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:12:50,706 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757509970703}
+2025-09-10 16:12:50,706 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:12:50,706 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:12:50,707 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:12:58,399 - vehicle-backend - INFO - Request: POST /api/infotainment/set-volume/55 - Client: 127.0.0.1
+2025-09-10 16:12:58,400 - vehicle-backend - INFO - Response: 404 - Time: 0.001s
+2025-09-10 16:12:58,403 - vehicle-backend - INFO - Request: POST /api/infotainment/set-volume/55 - Client: 127.0.0.1
+2025-09-10 16:12:58,406 - vehicle-backend - INFO - Response: 404 - Time: 0.002s
+2025-09-10 16:13:06,542 - vehicle-backend - INFO - Request: OPTIONS /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:13:06,544 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:13:06,548 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:13:06,550 - vehicle-backend - INFO - Request body: {"text":"im cold","timestamp":1757509986540}
+2025-09-10 16:13:06,551 - nlp-router - INFO - Processing voice command: 'im cold'
+2025-09-10 16:13:07,132 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:13:07,133 - ml-parser-service - INFO - 📤 Sending to ML service: 'im cold'
+2025-09-10 16:13:07,402 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:13:07,402 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:13:08,237 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509988236}
+2025-09-10 16:13:12,519 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757509992518}
+2025-09-10 16:13:13,497 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:13:13,498 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:13:13,498 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 6.078686952590942, 'source': 'llm_fallback', 'original_text': 'im cold', 'processed_text': 'im cold'}
+2025-09-10 16:13:13,499 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:13:13,499 - nlp-router - ERROR - Error executing action unknown: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:13:13,500 - vehicle-backend - INFO - Response: 200 - Time: 6.951s
+2025-09-10 16:13:20,709 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510000709}
+2025-09-10 16:13:20,711 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:13:20,713 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:13:20,713 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510000712}
+2025-09-10 16:13:20,714 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:13:20,714 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:13:42,524 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510022523}
+2025-09-10 16:13:48,188 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:13:48,189 - vehicle-backend - INFO - Request body: {"text":"im cold","timestamp":1757510028184}
+2025-09-10 16:13:48,190 - nlp-router - INFO - Processing voice command: 'im cold'
+2025-09-10 16:13:48,614 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:13:48,614 - ml-parser-service - INFO - 📤 Sending to ML service: 'im cold'
+2025-09-10 16:13:48,878 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:13:48,879 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:13:50,718 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510030717}
+2025-09-10 16:13:50,719 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:13:50,720 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:13:50,720 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510030718}
+2025-09-10 16:13:50,720 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:13:50,721 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:13:54,069 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:13:54,070 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:13:54,070 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 5.173434257507324, 'source': 'llm_fallback', 'original_text': 'im cold', 'processed_text': 'im cold'}
+2025-09-10 16:13:54,071 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:13:54,071 - nlp-router - ERROR - Error executing action unknown: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:13:54,072 - vehicle-backend - INFO - Response: 200 - Time: 5.884s
+2025-09-10 16:14:08,251 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510048249}
+2025-09-10 16:14:12,514 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510052513}
+2025-09-10 16:14:20,724 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510060723}
+2025-09-10 16:14:20,725 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:14:20,726 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:14:20,726 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510060726}
+2025-09-10 16:14:20,727 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:14:20,727 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:14:42,519 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510082518}
+2025-09-10 16:14:50,735 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510090734}
+2025-09-10 16:14:50,735 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:14:50,736 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510090734}
+2025-09-10 16:14:50,736 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:14:50,737 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:14:50,738 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:15:08,240 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510108239}
+2025-09-10 16:15:13,242 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510113241}
+2025-09-10 16:15:20,738 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510120737}
+2025-09-10 16:15:20,738 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:15:20,739 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:15:20,739 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510120738}
+2025-09-10 16:15:20,740 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:15:20,740 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:15:43,236 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510143235}
+2025-09-10 16:15:50,745 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510150744}
+2025-09-10 16:15:50,746 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:15:50,747 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:15:50,747 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510150745}
+2025-09-10 16:15:50,747 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:15:50,748 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:16:08,244 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510168243}
+2025-09-10 16:16:09,265 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:16:09,265 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:16:09,266 - websocket-manager - INFO - Connection duration: 206.8s, Messages: 21
+2025-09-10 16:16:09,266 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:16:09,713 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:16:09,716 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:16:09,717 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:16:09,717 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:16:09,722 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:16:09,724 - vehicle-backend - INFO - Response: 200 - Time: 0.007s
+2025-09-10 16:16:09,727 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:16:09,728 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:16:09,729 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:16:20,753 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510180752}
+2025-09-10 16:16:20,755 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:16:20,756 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:16:20,757 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510180753}
+2025-09-10 16:16:20,758 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:16:20,759 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:16:40,242 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510200241}
+2025-09-10 16:16:50,759 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510210758}
+2025-09-10 16:16:50,759 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:16:50,760 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:16:50,761 - vehicle-backend - INFO - WebSocket message received: {'type': 'pong', 'timestamp': 1757510210759}
+2025-09-10 16:16:50,761 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:16:50,762 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:17:08,245 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510228244}
+2025-09-10 16:17:09,933 - vehicle-backend - INFO - WebSocket message received: {'type': 'ping', 'timestamp': 1757510229932}
+2025-09-10 16:17:11,038 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:11,039 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:11,039 - websocket-manager - INFO - Connection duration: 61.3s, Messages: 7
+2025-09-10 16:17:11,039 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:17:11,401 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:17:11,404 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:17:11,405 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:17:11,405 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:17:11,408 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:17:11,409 - vehicle-backend - INFO - Response: 200 - Time: 0.004s
+2025-09-10 16:17:11,413 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:17:11,414 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:17:11,415 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:17:12,084 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:12,086 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:12,086 - websocket-manager - INFO - Connection duration: 681.5s, Messages: 46
+2025-09-10 16:17:12,086 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:17:12,156 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:17:12,158 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:17:12,159 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:17:12,162 - vehicle-backend - INFO - Request: GET /api/status - Client: 127.0.0.1
+2025-09-10 16:17:12,163 - vehicle-backend - INFO - Status endpoint accessed
+2025-09-10 16:17:12,164 - vehicle-backend - INFO - Response: 200 - Time: 0.003s
+2025-09-10 16:17:12,462 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:17:12,465 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:17:12,467 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:17:14,111 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:14,112 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:14,112 - websocket-manager - INFO - Connection duration: 1.6s, Messages: 1
+2025-09-10 16:17:14,113 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:17:15,541 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:15,542 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:17:15,542 - websocket-manager - INFO - Connection duration: 4.1s, Messages: 1
+2025-09-10 16:17:15,542 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:17:15,543 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:17:15,543 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:19:32,377 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:19:32,379 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:19:32,381 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:19:32,381 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:19:37,177 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:19:37,178 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:19:37,178 - websocket-manager - INFO - Connection duration: 4.8s, Messages: 1
+2025-09-10 16:19:37,179 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:19:37,179 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:19:37,180 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:23:09,646 - vehicle-backend - INFO - Request: OPTIONS /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:23:09,647 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:23:09,652 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:23:09,653 - vehicle-backend - INFO - Request body: {"text":"qwfewfwq","timestamp":1757510589328}
+2025-09-10 16:23:09,655 - nlp-router - INFO - Processing voice command: 'qwfewfwq'
+2025-09-10 16:23:10,209 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:23:10,210 - ml-parser-service - INFO - 📤 Sending to ML service: 'qwfewfwq'
+2025-09-10 16:23:10,490 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:23:10,491 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:23:16,084 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:23:16,084 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:23:16,085 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 5.578359842300415, 'source': 'llm_fallback', 'original_text': 'qwfewfwq', 'processed_text': 'qwfewfwq'}
+2025-09-10 16:23:16,085 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:23:16,085 - nlp-router - ERROR - Error executing action unknown: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:23:16,086 - vehicle-backend - INFO - Response: 200 - Time: 6.435s
+2025-09-10 16:24:29,278 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:24:29,279 - vehicle-backend - INFO - Request body: {"text":"adcq","timestamp":1757510668961}
+2025-09-10 16:24:29,281 - nlp-router - INFO - Processing voice command: 'adcq'
+2025-09-10 16:24:29,844 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:24:29,844 - ml-parser-service - INFO - 📤 Sending to ML service: 'adcq'
+2025-09-10 16:24:30,109 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:24:30,110 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:24:36,727 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:24:36,728 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:24:36,728 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 6.602810859680176, 'source': 'llm_fallback', 'original_text': 'adcq', 'processed_text': 'adcq'}
+2025-09-10 16:24:36,728 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:24:36,728 - nlp-router - ERROR - Error executing action unknown: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:24:36,729 - vehicle-backend - INFO - Response: 200 - Time: 7.451s
+2025-09-10 16:25:06,781 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:25:06,782 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757510706777}
+2025-09-10 16:25:06,783 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:25:07,168 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:25:07,168 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:25:07,439 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:25:07,440 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:25:14,433 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:25:14,434 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:25:14,434 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.96, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 6.97756552696228, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:25:14,434 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:25:14,435 - nlp-router - ERROR - Error executing action climate_set: 'VehicleStateManager' object has no attribute 'get_state'
+2025-09-10 16:25:14,436 - vehicle-backend - INFO - Response: 200 - Time: 7.656s
+2025-09-10 16:28:30,167 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:28:30,168 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:28:30,168 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:28:32,799 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:28:32,800 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757510912.7995803}
+2025-09-10 16:28:32,800 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:28:32,925 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:28:32,927 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:28:32,927 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:28:32,927 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:28:33,025 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:28:33,026 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:28:33,026 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:28:38,281 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:28:38,282 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757510918.2814887}
+2025-09-10 16:28:38,282 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:28:38,295 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:28:38,298 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:28:38,298 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:28:38,299 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:29:07,406 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:29:07,407 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757510947083}
+2025-09-10 16:29:07,410 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:29:07,990 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:29:07,991 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:29:08,278 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:29:08,279 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:29:11,996 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:29:11,997 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:29:11,997 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 3.70447039604187, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:29:11,998 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:29:11,998 - nlp-router - ERROR - Error executing action climate_set: 'VehicleStateManager' object has no attribute 'update_climate'
+2025-09-10 16:29:11,999 - vehicle-backend - INFO - Response: 200 - Time: 4.593s
+2025-09-10 16:30:51,392 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:30:51,393 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:30:51,394 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:31:16,911 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:31:16,912 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757511076.911386}
+2025-09-10 16:31:16,912 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:31:16,924 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:31:16,926 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:31:16,926 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:31:16,927 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:31:33,213 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:31:33,215 - vehicle-backend - INFO - Request body: {"text":"turn on lights","timestamp":1757511092889}
+2025-09-10 16:31:33,217 - nlp-router - INFO - Processing voice command: 'turn on lights'
+2025-09-10 16:31:33,731 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:31:33,732 - ml-parser-service - INFO - 📤 Sending to ML service: 'turn on lights'
+2025-09-10 16:31:34,016 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:31:34,017 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:31:39,193 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:31:39,194 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:31:39,195 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 5.154139757156372, 'source': 'llm_fallback', 'original_text': 'turn on lights', 'processed_text': 'turn on lights'}
+2025-09-10 16:31:39,195 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:31:39,196 - vehicle-state - INFO - Executing command: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:31:39,196 - vehicle-state - WARNING - Unknown action: unknown
+2025-09-10 16:31:39,196 - vehicle-state - WARNING - Command execution failed: {'action': 'unknown', 'success': False, 'changes': {}, 'error': 'Unknown action category: unknown'}
+2025-09-10 16:31:39,208 - vehicle-backend - INFO - Response: 200 - Time: 5.995s
+2025-09-10 16:32:08,393 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:32:08,395 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757511128390}
+2025-09-10 16:32:08,396 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:32:08,867 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:32:08,868 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:32:09,136 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:32:09,137 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:32:13,687 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:32:13,688 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:32:13,688 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 4.536476373672485, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:32:13,688 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:32:13,689 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:32:13,689 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:32:13,690 - nlp-router - WARNING - Failed to broadcast state update: name 'json' is not defined
+2025-09-10 16:32:13,690 - vehicle-backend - INFO - Response: 200 - Time: 5.297s
+2025-09-10 16:33:36,090 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:33:36,090 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:33:36,091 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:33:37,132 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:33:37,133 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757511217.1323392}
+2025-09-10 16:33:37,133 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:33:37,145 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:33:37,147 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:33:37,148 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:33:37,148 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:33:38,087 - vehicle-backend - INFO - Vehicle AI Backend shutting down...
+2025-09-10 16:33:38,089 - websocket-manager - INFO - Shutting down WebSocket Connection Manager
+2025-09-10 16:33:38,089 - websocket-manager - INFO - WebSocket Connection Manager shutdown complete
+2025-09-10 16:33:49,872 - vehicle-state - INFO - Vehicle State Manager initialized
+2025-09-10 16:33:49,873 - vehicle-state - INFO - Initial state: {'climate': {'temperature': 22.0, 'fan_speed': 3, 'ac_enabled': True, 'heating_enabled': False, 'auto_mode': True, 'recirculation': False}, 'lights': {'interior_lights': True, 'ambient_lights': True, 'reading_lights': False, 'brightness': 80, 'ambient_color': 'white'}, 'seats': {'driver_heating': False, 'passenger_heating': False, 'driver_massage': False, 'passenger_massage': False, 'driver_position': {'height': 50, 'tilt': 50, 'lumbar': 50}, 'passenger_position': {'height': 50, 'tilt': 50, 'lumbar': 50}}, 'infotainment': {'volume': 50, 'source': 'radio', 'station': 'FM 101.5', 'track': None, 'artist': None, 'playing': False, 'muted': False}, 'last_updated': 1757511229.872503}
+2025-09-10 16:33:49,873 - websocket-manager - INFO - WebSocket Connection Manager initialized
+2025-09-10 16:33:49,889 - vehicle-backend - INFO - Vehicle AI Backend starting up...
+2025-09-10 16:33:49,891 - vehicle-backend - INFO - Debug mode: True
+2025-09-10 16:33:49,891 - vehicle-backend - INFO - Allowed origins: ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:3000', 'http://127.0.0.1:5173', 'http://localhost:8080']
+2025-09-10 16:33:49,892 - vehicle-backend - INFO - ML Service URL: http://localhost:8001
+2025-09-10 16:34:17,403 - vehicle-backend - INFO - Request: OPTIONS /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:34:17,405 - vehicle-backend - INFO - Response: 200 - Time: 0.002s
+2025-09-10 16:34:18,908 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:34:18,910 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757511257076}
+2025-09-10 16:34:18,912 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:34:19,581 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:34:19,582 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:34:19,875 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:34:19,877 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:34:23,890 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:34:23,891 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:34:23,892 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.97, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 3.9845755100250244, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:34:23,892 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:34:23,892 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:34:23,893 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:34:23,893 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:34:23,893 - vehicle-backend - INFO - Response: 200 - Time: 4.985s
+2025-09-10 16:40:29,686 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:31,539 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:31,541 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:40:31,541 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:40:31,706 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:31,708 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:31,710 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:40:36,902 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:36,903 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:36,903 - websocket-manager - INFO - Connection duration: 5.2s, Messages: 1
+2025-09-10 16:40:36,904 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:40:36,904 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:36,905 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:36,905 - websocket-manager - INFO - Connection duration: 5.4s, Messages: 1
+2025-09-10 16:40:36,905 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:40:36,906 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:40:36,907 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:40:37,253 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:37,255 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:37,257 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:40:37,257 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:40:37,285 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:37,288 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:37,289 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:40:37,610 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:37,612 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:37,612 - websocket-manager - INFO - Connection duration: 0.4s, Messages: 1
+2025-09-10 16:40:37,612 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:40:37,613 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:37,613 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:40:37,613 - websocket-manager - INFO - Connection duration: 0.3s, Messages: 1
+2025-09-10 16:40:37,613 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:40:37,614 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:40:37,614 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:40:37,965 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:37,968 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:37,970 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:40:37,970 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:40:37,998 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:40:38,000 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:40:38,002 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:40:53,350 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:40:53,352 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757511653031}
+2025-09-10 16:40:53,353 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:40:53,836 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:40:53,836 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:40:54,112 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:40:54,113 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:40:58,357 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:40:58,357 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:40:58,358 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 4.228913068771362, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:40:58,358 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:40:58,359 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:40:58,359 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:40:58,359 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:40:58,360 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:40:58,361 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:40:58,363 - vehicle-backend - INFO - Response: 200 - Time: 5.012s
+2025-09-10 16:42:55,470 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:42:55,471 - vehicle-backend - INFO - Request body: {"text":"turn off the lights","timestamp":1757511775159}
+2025-09-10 16:42:55,472 - nlp-router - INFO - Processing voice command: 'turn off the lights'
+2025-09-10 16:42:56,010 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:42:56,011 - ml-parser-service - INFO - 📤 Sending to ML service: 'turn off the lights'
+2025-09-10 16:42:56,286 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:42:56,288 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:43:01,304 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:43:01,306 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:43:01,306 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'unknown', 'confidence': 0.0, 'action': 'unknown', 'parameters': {'reason': 'Empty LLM response'}, 'processing_time': 4.998998403549194, 'source': 'llm_fallback', 'original_text': 'turn off the lights', 'processed_text': 'turn off the lights'}
+2025-09-10 16:43:01,306 - nlp-router - INFO - Executing action: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:43:01,307 - vehicle-state - INFO - Executing command: unknown with parameters: {'reason': 'Empty LLM response'}
+2025-09-10 16:43:01,307 - vehicle-state - WARNING - Unknown action: unknown
+2025-09-10 16:43:01,307 - vehicle-state - WARNING - Command execution failed: {'action': 'unknown', 'success': False, 'changes': {}, 'error': 'Unknown action category: unknown'}
+2025-09-10 16:43:01,308 - vehicle-backend - INFO - Response: 200 - Time: 5.838s
+2025-09-10 16:44:20,263 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:20,265 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:20,265 - websocket-manager - INFO - Connection duration: 222.3s, Messages: 2
+2025-09-10 16:44:20,265 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:44:20,266 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:20,267 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:20,267 - websocket-manager - INFO - Connection duration: 222.3s, Messages: 2
+2025-09-10 16:44:20,267 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:44:20,268 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:44:20,270 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:44:20,704 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:20,708 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:20,710 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:44:20,711 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:44:20,739 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:20,742 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:20,744 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:44:29,263 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:29,264 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:29,265 - websocket-manager - INFO - Connection duration: 8.5s, Messages: 1
+2025-09-10 16:44:29,265 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:44:29,265 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:29,266 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:29,266 - websocket-manager - INFO - Connection duration: 8.6s, Messages: 1
+2025-09-10 16:44:29,266 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:44:29,266 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:44:29,268 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:44:29,694 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:29,696 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:29,697 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:44:29,698 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:44:29,714 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:29,718 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:29,719 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:44:41,981 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:41,982 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:41,982 - websocket-manager - INFO - Connection duration: 12.3s, Messages: 1
+2025-09-10 16:44:41,983 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:44:41,983 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:41,984 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:44:41,984 - websocket-manager - INFO - Connection duration: 12.3s, Messages: 1
+2025-09-10 16:44:41,984 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:44:41,985 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:44:41,985 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:44:42,352 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:42,355 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:42,356 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:44:42,357 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:44:42,374 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:44:42,376 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:44:42,377 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:44:49,896 - vehicle-backend - INFO - Request: OPTIONS /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:44:49,898 - vehicle-backend - INFO - Response: 200 - Time: 0.001s
+2025-09-10 16:44:49,902 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:44:49,904 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757511889577}
+2025-09-10 16:44:49,905 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:44:50,489 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:44:50,489 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:44:50,765 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:44:50,766 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:44:54,551 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:44:54,552 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:44:54,552 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.96, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 3.7667195796966553, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:44:54,552 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:44:54,552 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:44:54,553 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:44:54,553 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:44:54,554 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:44:54,554 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:44:54,555 - vehicle-backend - INFO - Response: 200 - Time: 4.653s
+2025-09-10 16:45:29,265 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:29,267 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:29,267 - websocket-manager - INFO - Connection duration: 46.9s, Messages: 2
+2025-09-10 16:45:29,268 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:45:29,268 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:29,268 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:29,269 - websocket-manager - INFO - Connection duration: 46.9s, Messages: 2
+2025-09-10 16:45:29,269 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:45:29,269 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:45:29,271 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:45:29,702 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:29,705 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:29,707 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:45:29,707 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:45:29,733 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:29,735 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:29,737 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:45:35,256 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:35,257 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:35,258 - websocket-manager - INFO - Connection duration: 5.6s, Messages: 1
+2025-09-10 16:45:35,258 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:45:35,259 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:35,259 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:35,259 - websocket-manager - INFO - Connection duration: 5.5s, Messages: 1
+2025-09-10 16:45:35,260 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:45:35,260 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:45:35,260 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:45:35,682 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:35,686 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:35,687 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:45:35,687 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:45:35,704 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:35,707 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:35,708 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:45:38,255 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:38,256 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:38,256 - websocket-manager - INFO - Connection duration: 2.6s, Messages: 1
+2025-09-10 16:45:38,256 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:45:38,257 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:38,257 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:38,258 - websocket-manager - INFO - Connection duration: 2.6s, Messages: 1
+2025-09-10 16:45:38,258 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:45:38,258 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:45:38,260 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:45:38,684 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:38,686 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:38,687 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:45:38,687 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:45:38,718 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:38,721 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:38,722 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:45:44,263 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:44,265 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:44,265 - websocket-manager - INFO - Connection duration: 5.6s, Messages: 1
+2025-09-10 16:45:44,265 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:45:44,266 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:44,266 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:44,267 - websocket-manager - INFO - Connection duration: 5.5s, Messages: 1
+2025-09-10 16:45:44,267 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:45:44,267 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:45:44,268 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:45:44,681 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:44,684 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:44,686 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:45:44,686 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:45:44,713 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:44,716 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:44,717 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:45:45,988 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:45,989 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:45,990 - websocket-manager - INFO - Connection duration: 1.3s, Messages: 1
+2025-09-10 16:45:45,990 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:45:45,991 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:45,991 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:45:45,991 - websocket-manager - INFO - Connection duration: 1.3s, Messages: 1
+2025-09-10 16:45:45,992 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:45:45,992 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:45:45,993 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:45:46,348 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:46,352 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:46,353 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:45:46,354 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:45:46,382 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:45:46,386 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:45:46,388 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:45:57,985 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:45:57,986 - vehicle-backend - INFO - Request body: {"text":"set temperature to 30","timestamp":1757511957667}
+2025-09-10 16:45:57,987 - nlp-router - INFO - Processing voice command: 'set temperature to 30'
+2025-09-10 16:45:58,531 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:45:58,532 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 30'
+2025-09-10 16:45:58,798 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:45:58,800 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:46:07,913 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:46:07,914 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:46:07,914 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.96, 'action': 'climate_set', 'parameters': {'temperature': 30}, 'processing_time': 9.09856390953064, 'source': 'llm_fallback', 'original_text': 'set temperature to 30', 'processed_text': 'set temperature to 30'}
+2025-09-10 16:46:07,915 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 30}
+2025-09-10 16:46:07,915 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 30}
+2025-09-10 16:46:07,915 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 30.0}}
+2025-09-10 16:46:07,915 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:46:07,916 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:46:07,916 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:46:07,917 - vehicle-backend - INFO - Response: 200 - Time: 9.932s
+2025-09-10 16:48:32,741 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:48:32,743 - vehicle-backend - INFO - Request body: {"text":"set temperature to 16","timestamp":1757512112424}
+2025-09-10 16:48:32,745 - nlp-router - INFO - Processing voice command: 'set temperature to 16'
+2025-09-10 16:48:33,289 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:48:33,290 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 16'
+2025-09-10 16:48:38,571 - ml-parser-service - WARNING - 🏥 Health check failed: 
+2025-09-10 16:48:38,571 - ml-parser-service - WARNING - ⚠️ ML service unhealthy, using fallback
+2025-09-10 16:48:38,571 - ml-parser-service - INFO - 🔄 Creating fallback result for 'set temperature to 16' (reason: Service unavailable)
+2025-09-10 16:48:38,571 - ml-parser-service - INFO - 🔄 Fallback result: {'action': 'climate_unknown', 'confidence': 0.3, 'parameters': {}, 'intent': 'climate', 'source': 'fallback', 'fallback_reason': 'Service unavailable'}
+2025-09-10 16:48:38,572 - nlp-router - INFO - Executing action: climate_unknown with parameters: {}
+2025-09-10 16:48:38,572 - vehicle-state - INFO - Executing command: climate_unknown with parameters: {}
+2025-09-10 16:48:38,573 - vehicle-state - WARNING - Command execution failed: {'success': False, 'error': 'Unknown climate action: climate_unknown'}
+2025-09-10 16:48:38,574 - vehicle-backend - INFO - Response: 200 - Time: 5.832s
+2025-09-10 16:50:13,724 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:50:13,726 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757512213409}
+2025-09-10 16:50:13,727 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:50:14,252 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:50:14,253 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:50:14,523 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:50:14,524 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:50:20,645 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:50:20,646 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:50:20,647 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 6.10381555557251, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:50:20,647 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:50:20,647 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:50:20,647 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:50:20,648 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:50:20,648 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:50:20,649 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:50:20,650 - vehicle-backend - INFO - Response: 200 - Time: 6.926s
+2025-09-10 16:50:49,469 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:50:49,471 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:50:49,472 - websocket-manager - INFO - Connection duration: 303.1s, Messages: 3
+2025-09-10 16:50:49,472 - websocket-manager - INFO - Remaining active connections: 1
+2025-09-10 16:50:49,474 - vehicle-backend - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:50:49,474 - websocket-manager - INFO - WebSocket disconnected from 127.0.0.1
+2025-09-10 16:50:49,474 - websocket-manager - INFO - Connection duration: 303.1s, Messages: 3
+2025-09-10 16:50:49,475 - websocket-manager - INFO - Remaining active connections: 0
+2025-09-10 16:50:49,475 - websocket-manager - INFO - Stopped WebSocket heartbeat task
+2025-09-10 16:50:49,477 - websocket-manager - INFO - Heartbeat task cancelled
+2025-09-10 16:50:49,894 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:50:49,897 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:50:49,898 - websocket-manager - INFO - Total active connections: 1
+2025-09-10 16:50:49,899 - websocket-manager - INFO - Started WebSocket heartbeat task
+2025-09-10 16:50:49,926 - vehicle-backend - INFO - WebSocket connection attempt from 127.0.0.1
+2025-09-10 16:50:49,929 - websocket-manager - INFO - New WebSocket connection from 127.0.0.1
+2025-09-10 16:50:49,930 - websocket-manager - INFO - Total active connections: 2
+2025-09-10 16:50:57,992 - vehicle-backend - INFO - Request: POST /api/nlp/process-voice - Client: 127.0.0.1
+2025-09-10 16:50:57,993 - vehicle-backend - INFO - Request body: {"text":"set temperature to 22","timestamp":1757512257988}
+2025-09-10 16:50:57,995 - nlp-router - INFO - Processing voice command: 'set temperature to 22'
+2025-09-10 16:50:58,437 - ml-parser-service - INFO - 🔗 ML Parser Service initialized with URL: http://localhost:8001
+2025-09-10 16:50:58,437 - ml-parser-service - INFO - 📤 Sending to ML service: 'set temperature to 22'
+2025-09-10 16:50:58,714 - httpx - INFO - HTTP Request: GET http://localhost:8001/healthz "HTTP/1.1 200 OK"
+2025-09-10 16:50:58,715 - ml-parser-service - INFO - 📡 Posting to http://localhost:8001/parse
+2025-09-10 16:51:03,015 - httpx - INFO - HTTP Request: POST http://localhost:8001/parse "HTTP/1.1 200 OK"
+2025-09-10 16:51:03,016 - ml-parser-service - INFO - 📥 ML service response status: 200
+2025-09-10 16:51:03,016 - ml-parser-service - INFO - ✅ ML parsing successful: {'intent': 'climate', 'confidence': 0.98, 'action': 'climate_set', 'parameters': {'temperature': 22}, 'processing_time': 4.280581474304199, 'source': 'llm_fallback', 'original_text': 'set temperature to 22', 'processed_text': 'set temperature to 22'}
+2025-09-10 16:51:03,017 - nlp-router - INFO - Executing action: climate_set with parameters: {'temperature': 22}
+2025-09-10 16:51:03,017 - vehicle-state - INFO - Executing command: climate_set_temperature with parameters: {'temperature': 22}
+2025-09-10 16:51:03,017 - vehicle-state - INFO - Command executed successfully: {'success': True, 'changes': {'temperature': 22.0}}
+2025-09-10 16:51:03,017 - websocket-manager - INFO - Broadcasting message to 2 connections
+2025-09-10 16:51:03,018 - websocket-manager - INFO - Broadcast completed: 2 successful, 0 failed
+2025-09-10 16:51:03,019 - nlp-router - INFO - State update broadcasted via WebSocket
+2025-09-10 16:51:03,019 - vehicle-backend - INFO - Response: 200 - Time: 5.028s

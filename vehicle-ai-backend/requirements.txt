@@ -1,5 +1,12 @@
 fastapi
-uvicorn[standard]
+uvicorn
 websockets
 pydantic
 python-dotenv
+httpx
+python-multipart
+requests
+pytest
+pytest-asyncio
+sqlalchemy
+alembic
