@@ -5,6 +5,8 @@ Startup script for Vehicle AI Backend
 
 import uvicorn
 from config import settings
+import logging
+logging.raiseExceptions = False
 
 if __name__ == "__main__":
     print("🚗 Starting Vehicle AI Backend...")

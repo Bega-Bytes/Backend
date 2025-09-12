@@ -207,7 +207,7 @@ async def get_status():
             status.update({
                 "ml_model_loaded": hasattr(parser, 'ml_parser') and parser.ml_parser is not None,
                 "llm_fallback_available": hasattr(parser, 'llm_fallback') and parser.llm_fallback is not None,
-                "confidence_threshold": getattr(parser, 'confidence_threshold', 0.7)
+                "confidence_threshold": getattr(parser, 'confidence_threshold', 0.1)
             })
         except Exception as e:
             status["parser_error"] = str(e)
